@@ -52,7 +52,7 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+			'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => getenv('DB_HOST'),
 			'database'  => getenv('DB_NAME'),
